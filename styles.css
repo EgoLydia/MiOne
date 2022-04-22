@@ -54,11 +54,11 @@
     padding: 12px 32px;
 }
 
-.about{
-    padding-top: 300px;
+.about, .features, .testimonials, .download-app {
+    padding: 200px 0px;
 }
 
-.list-item{
+.list-item, .promo-description, .carousel-header{
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 24px;
@@ -161,15 +161,99 @@ a.btn{
     padding: 4rem 2rem;
 }
 
+.container{
+    max-width: 94%;
+}
+
+.promo-icon{
+    width: 36px;
+    position: absolute;
+    float: right;
+    right: 0;
+}
+
+.promo-left{
+    float: left;
+    left: 0;
+}
+
+.promo-container2{
+    padding-left: 60px;
+    position: relative;
+}
+
+.promo-container{
+    padding-right: 60px;
+    position: relative;
+}
+
+.promo-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.img-text{
+    color: #111724;
+}
+.carousel-item{
+    margin-bottom: 150px;
+}
+
+.rating{
+    color:#fdd639;
+    margin-bottom: 24px;
+}
+
+.testimonial-message{
+    margin-bottom: 15px;
+}
+
+.half{
+    font-size: 22px;
+}
+
+.middle{
+    font-size: 12px;
+}
+
+.img-area img{
+    border-radius: 50%;
+    width: 180px;
+}
+
+.name{
+    font-size: 12;
+    font-weight: 400;
+    color: #797d85;
+}
+
+.footer-text{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer{
+    padding: 48px 0px;
+}
 @media (min-width:992px)  {
     .hero-content{
         margin-top: 100px;
     }
 
-    /* .container{
+    .container{
         max-width: 85%;
-    }     */
+    }    
 
+    .footer-left{
+        text-align: left !important;
+    }
+    .footer-end{
+        text-align: end;
+    }
     
 }
+
+
+
 
