@@ -1,0 +1,175 @@
+.logo{
+    max-width: 160px !important;
+    max-height: 22px !important;
+}
+
+*{
+    font-family:'Barlow', sans-serif;
+}
+
+.nav-item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #515254 !important ;
+    padding: 0px 16px !important;
+}
+
+.bg-img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* header{
+    position: relative;
+} */
+
+.page-title{
+    font-size: 48px ;
+    line-height: 58px;
+    font-weight: 700;
+    color: #111724;
+}
+.header-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #797d85;
+    margin-bottom: 25px;
+}
+
+.header-sub2{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.hero1{
+    padding-top: 140px;
+}
+
+.btn{
+    padding: 12px 32px;
+}
+
+.about{
+    padding-top: 300px;
+}
+
+.list-item{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #797d85;
+}
+
+.paragraph{
+    margin-bottom: 20px;
+}
+
+.bi-check-lg{
+    color: #2cb34c;
+}
+
+.promo-box {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 2px 8px rgb(0 30 60 / 3%);
+}
+
+.promo-content{
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.download{
+    min-width: 100px;
+    min-height: 100px;
+border-radius: 100%;
+text-align: center;
+}
+
+.download-icon{
+    width: 40px;
+    color: #fff;
+    margin-top: 23px;
+}
+
+.promo-text{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 !important;
+}
+
+.downloads, .users{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.about-img{
+    margin-bottom: 50px;
+}
+
+.team-text{
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #111724;
+    padding: 60px 0px;
+}
+
+.card-img{
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #797d85;
+}
+
+.card-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #111724;
+}
+
+.btn-circle{
+    border-radius: 100%;
+}
+
+.btn-icon {
+    padding: 5px 10px;
+}
+
+a.btn{
+    display: inline-block;
+}
+
+.card-body{
+    padding: 4rem 2rem;
+}
+
+@media (min-width:992px)  {
+    .hero-content{
+        margin-top: 100px;
+    }
+
+    /* .container{
+        max-width: 85%;
+    }     */
+
+    
+}
+
