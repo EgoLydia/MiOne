@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="icon" href="/img/favicon.png">
     <title>MiOne - Minimal Landing Page</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
@@ -23,16 +23,19 @@
                 <img class="logo" src="/img/logo.png" alt="">
             </a>
             <!-- toggle button for mobile nav -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+                <span class="sr-only"></span>
             </button>
 
             <!-- navbar links -->
             <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                <ul class="navbar-nav mt-sm-3">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#home" class="nav-link active ">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link ">About</a>
@@ -47,7 +50,7 @@
             </div>
         </div>
     </nav>
-
+    <!-- home page -->
     <section class="bg-img hero1" id="home" style="background-image: url(/img/ph-bg10.jpg);">
         <div class="container justify-content-center align-items-center">
             <div class="row">
@@ -57,11 +60,11 @@
                         quam.
                         Nulla at libero eu dolor placerat.</p>
                     <p class="text-dark header-sub2">Download App</p>
-                    <a href="#" class="btn btn-dark ">
+                    <a href="#" class="btn btn-dark btn-animation">
                         <i class="bi bi-apple"></i>
                         <span>App Store</span>
                     </a>
-                    <a href="#" class="btn btn-primary ">
+                    <a href="#" class="btn btn-primary btn-animation">
                         <i class="ri-google-play-fill"></i>
                         <span>Google Play</span>
                     </a>
@@ -73,6 +76,7 @@
         </div>
     </section>
 
+    <!-- about section -->
     <section id="about" class="about">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -141,46 +145,46 @@
                 <h2 class=" text-center team-text">THE TEAM</h2>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="card raised aos-animate aos-init" data-aos="fade up">
+                        <div class="card">
                             <div class="card-body text-center">
                                 <img src="/img/ph-mini1.jpg" class="card-img" alt="">
                                 <p class="fw-medium-mb-5">Lead Developer</p>
                                 <h6 class="card-title">Larry Lin</h6>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-telephone-fill"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-twitter"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="ri-mail-fill"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="card raised aos-animate aos-init" data-aos="fade up">
+                        <div class="card">
                             <div class="card-body text-center">
                                 <img src="/img/ph-mini2.jpg" class="card-img" alt="">
                                 <p class="fw-medium-mb-5">Designer</p>
                                 <h6 class="card-title">Sophia Perez</h6>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-telephone-fill"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-twitter"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="ri-mail-fill"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="card raised aos-animate aos-init" data-aos="fade up">
+                        <div class="card">
                             <div class="card-body text-center">
                                 <img src="/img/ph-mini3.jpg" class="card-img" alt="">
                                 <p class="fw-medium-mb-5">Developer</p>
                                 <h6 class="card-title">Jacob Ginnish</h6>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-telephone-fill"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="bi bi-twitter"></i></a>
-                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2"><i
+                                <a href="#" class="btn btn-circle btn-icon btn-primary m-2 btn-animation"><i
                                         class="ri-mail-fill"></i></a>
                             </div>
                         </div>
@@ -191,6 +195,7 @@
         </div>
     </section>
 
+    <!-- features and details -->
     <section id="features" class="features">
         <div class="container justify-content-center align-items-center">
             <div class="row">
@@ -279,74 +284,78 @@
             </div>
         </div>
     </section>
+
+    <!-- happy customers testimonials -->
     <section id="testimonials">
         <div class="container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="img-area text-center">
-                          <img src="/img/ph-mini4.jpg" class="mb-3" alt="...">
-                      </div>
-                      <div class="img-text text-center">
-                          <div class="rating">
-                            <i class="bi bi-star-fill middle "></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half half"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill middle "></i>
-                          </div>
-                          <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
-                        </p>
-                          <p class="name">- Sophia Perez | Airbnb.com</p>
-                      </div>
-                  </div>
-                   <div class="carousel-item">
-                      <div class="img-area text-center">
-                          <img src="/img/ph-mini5.jpg" class="mb-3" alt="...">
-                      </div>
-                      <div class="img-text text-center">
-                          <div class="rating">
-                            <i class="bi bi-star-fill middle "></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half half"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill middle "></i>
-                          </div>
-                          <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
-                        </p>
-                          <p class="name">- Jacob Ginnish | Google.com
-                        </p>
-                      </div>
-                  </div>
-                    <div class="carousel-item">
-                      <div class="img-area text-center">
-                          <img src="/img/ph-mini6 (1).jpg" class="mb-3" alt="...">
-                      </div>
-                      <div class="img-text text-center">
-                          <div class="rating">
-                            <i class="bi bi-star-fill middle "></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half half"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill middle "></i>
-                          </div>
-                          <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
-                        </p>
-                          <p class="name">- Macy Maher | Apple.com
-                        </p>
-                      </div>
-                  </div>
+                    <div class="carousel-item promo-box active">
+                        <div class="img-area text-center">
+                            <img src="/img/ph-mini4.jpg" class="mb-3" alt="...">
+                        </div>
+                        <div class="img-text text-center">
+                            <div class="rating">
+                                <i class="bi bi-star-fill middle "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half half"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill middle "></i>
+                            </div>
+                            <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
+                            </p>
+                            <p class="name">- Sophia Perez | Airbnb.com</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item promo-box">
+                        <div class="img-area text-center">
+                            <img src="/img/ph-mini5.jpg" class="mb-3" alt="...">
+                        </div>
+                        <div class="img-text text-center">
+                            <div class="rating">
+                                <i class="bi bi-star-fill middle "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half half"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill middle "></i>
+                            </div>
+                            <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
+                            </p>
+                            <p class="name">- Jacob Ginnish | Google.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item promo-box">
+                        <div class="img-area text-center">
+                            <img src="/img/ph-mini6 (1).jpg" class="mb-3" alt="...">
+                        </div>
+                        <div class="img-text text-center">
+                            <div class="rating">
+                                <i class="bi bi-star-fill middle "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half half"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill middle "></i>
+                            </div>
+                            <p class="testimonial-message">Etiam in gravida ligula. Phasellus a blandit.
+                            </p>
+                            <p class="name">- Macy Maher | Apple.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  </div>
-  </div>
     </section>
     <section class="download-app">
         <div class="container">
@@ -357,37 +366,37 @@
                         quam.
                         Nulla at libero eu dolor placerat.</p>
                     <p class="text-dark header-sub2">Download App</p>
-                    <a href="#" class="btn btn-dark ">
+                    <a href="#" class="btn btn-dark btn-animation ">
                         <i class="bi bi-apple"></i>
                         <span>App Store</span>
                     </a>
-                    <a href="#" class="btn btn-primary ">
+                    <a href="#" class="btn btn-primary btn-animation ">
                         <i class="ri-google-play-fill"></i>
                         <span>Google Play</span>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-white">
+        <div class="container">
+            <div class="row text-center footer-left">
+                <div class="col-md-6">
+                    <p class="footer-text">© MiOne Clone 2022 by <span class="text-primary">Lydia</span></p>
                 </div>
-        </div>            
-        </section>
-        <footer class="footer bg-white">
-            <div class="container">
-                <div class="row text-center footer-left">
-                    <div class="col-md-6">
-                        <p class="footer-text">© MiOne Clone 2022 by <span class="text-primary">Lydia</span></p>
-                    </div>
-                    <div class="col-md-6 footer-end">
-                        <a href="#" class="btn btn-circle btn-icon btn-primary me-2 "><i
+                <div class="col-md-6 footer-end">
+                    <a href="#" class="btn btn-circle btn-icon btn-primary me-2 btn-animation "><i
                             class="bi bi-facebook"></i></a>
-                    <a href="#" class="btn btn-circle btn-icon btn-primary me-2 "><i
+                    <a href="#" class="btn btn-circle btn-icon btn-primary me-2 btn-animation "><i
                             class="bi bi-twitter"></i></a>
-                    <a href="#" class="btn btn-circle btn-icon btn-primary me-2"><i
+                    <a href="#" class="btn btn-circle btn-icon btn-primary me-2 btn-animation"><i
                             class="bi bi-instagram"></i></a>
 
-                    </div>
                 </div>
             </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
