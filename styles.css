@@ -296,6 +296,14 @@ a.btn {
     width: 1px;
 }
 
+.download-btn{
+    margin: 5px;
+}
+
+.ms-0{
+    margin-left: 0 !important;
+}
+
 
 
 @media (min-width:992px) {
