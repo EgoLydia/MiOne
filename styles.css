@@ -99,6 +99,11 @@
     padding-bottom: 60px;
 }
 
+.icon-next, .icon-prev{
+    font-size: 50px;
+    color: #2c3548;
+}
+
 .download {
     min-width: 100px;
     min-height: 100px;
