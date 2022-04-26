@@ -57,11 +57,15 @@
 }
 
 .hero1,
-.about,
 .features,
 .testimonials,
 .download-app {
     padding: 200px 0px;
+}
+
+.about{
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 
 .list-item,
